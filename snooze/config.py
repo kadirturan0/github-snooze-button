@@ -3,7 +3,6 @@ try:
 except ImportError:
     import ConfigParser as configparser
 
-
 def parse_config(filename):
     """Parses github-snooze-button configuration files.
 
